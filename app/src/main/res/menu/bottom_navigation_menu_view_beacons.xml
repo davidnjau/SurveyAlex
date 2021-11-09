@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_add_beacons"
+        android:icon="@drawable/ic_action_add_beacons"
+        android:title="Add Beacons" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/navigation_index_card"
+        android:icon="@drawable/ic_action_index"
+        android:title="Trig. Index Card" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/navigation_view_beacons"
+        android:icon="@drawable/ic_action_beacons"
+        android:title="View Beacons" />
+
+</menu>
